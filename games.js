@@ -9,6 +9,11 @@ const games = [
         description: "Description for Game 2",
         link: "https://poki.com/en/g/subway-surfers"
     },
+    {
+        title: "gun game",
+        description: "Grow your snake by eating the dots, but don't run into yourself!",
+        link: "https://poki.com/en/g/combat-online"
+    },
     // Add more games here
 ];
 [
@@ -41,7 +46,7 @@ const games = [
         link: "https://poki.com/en/g/combat-online"
     },
     {
-        title: "Pacman",
+        title: "P",
         description: "Navigate the maze and eat all the dots.",
         link: "https://example.com/pacman"
     },
