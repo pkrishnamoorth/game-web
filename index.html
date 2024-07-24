@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kd komban gaming</title>
+    <link rel="stylesheet" href="styles.css">
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            if (!sessionStorage.getItem('isLoggedIn')) {
+                window.location.href = 'login.html';
+            }
+        });
+    </script>
+</head>
+<body>
+    <header>
+        <h1>Kd komban gaming</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="games.html">Games</a>
+            <a href="login.html">Login</a>
+            <a href="profile.html">Profile</a>
+        </nav>
+    </header>
+    <main>
+        <section id="home">
+            <img width="500px" src="itaich.png" alt="Gaming Banner" id="home-image">
+            <h2>Welcome to My Gaming Website</h2>
+            <p>Play the best games online!</p>
+            <h1>you are already under my genjutsu</h1>
+        </section>
+    </main>
+</body>
+</html>
