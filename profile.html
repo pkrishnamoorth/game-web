@@ -29,3 +29,35 @@
     </main>
 </body>
 </html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link rel="stylesheet" href="styles.css">
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            if (!sessionStorage.getItem('isLoggedIn')) {
+                window.location.href = 'login.html';
+            }
+        });
+    </script>
+</head>
+<body>
+    <header>
+        <h1>My Gaming Website</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="games.html">Games</a>
+            <a href="login.html">Login</a>
+            <a href="profile.html">Profile</a>
+            <a href="https://poki.com/en/online" target="_blank">External Site</a>
+        </nav>
+    </header>
+    <main>
+        <h2>Welcome, [username]!</h2>
+        <p>This is your profile page.</p>
+    </main>
+</body>
+</html>
